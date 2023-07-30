@@ -683,11 +683,15 @@ a:focus {
 .company-name :first-child {
   font-family: auto;
   color: #d1283c;
+  font-size: 100px;
+  font-family: 'Proxima Nova';
+  line-height: 87px;
 }
 
-.company-name :nth-child(2) {
+.company-name :nth-child(3) {
   font-family: auto;
   color: #0d1f61;
+  font-size: 40px;
 }
 
 .email-info {
@@ -708,7 +712,7 @@ a:focus {
 }
 
 .client-box{
-  background-color: #317164;
+  background-color: darkgrey;
   margin-top: 90px;
   padding-top: 80px;
   padding-right: 30px;
@@ -773,4 +777,10 @@ a:focus {
 
 .contact-details {
   font-size: 20px;
+}
+
+.name-divider{
+  border-top: 8px solid #d1283c;
+  max-width: 83%;
+  margin-left: 46px;
 }
