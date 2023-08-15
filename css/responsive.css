@@ -188,12 +188,12 @@
     }
     .company-name {
         color: #d1283c;
-        font-size: 90px;
-        line-height: 90px;
+        font-size: 73px;
+        line-height: 73px;
       }
       
       .company-sub-name {
-        font-size: 33px;
+        font-size: 27px;
         line-height: 54px;
       }
 
@@ -246,7 +246,7 @@
         padding: 10px;
     }
     .contact-details ul li {
-        font-size: 24px;
+        font-size: 18px;
     }
     .contact-details ul li img {
         margin-right: 13px;
@@ -320,5 +320,9 @@
     }
     .company-wrapper {
         text-align: center;
+    }
+    .contact-img {
+        width: 42px;
+        height: 42px;
     }
 }
