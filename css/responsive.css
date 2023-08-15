@@ -16,6 +16,7 @@
     .banner_main {
         padding-top: 18%;
         padding-right: 0px;
+        padding-left: 0px;
     }
     .text-bg h1 {
         font-size: 66px;
@@ -37,6 +38,7 @@
     .banner_main {
         padding-top: 18%;
         padding-right: 0px;
+        padding-left: 0px;
     }
     .text-bg h1 {
         font-size: 47px;
@@ -56,10 +58,10 @@
     .solutions_img {
         margin-right: 0;
     }
-    .contac_detel ul li img {
+    .contact-details ul li img {
         margin-right: 27px;
     }
-    .contac_detel ul li {
+    .contact-details ul li {
         font-size: 30px;
     }
     .company-name {
@@ -76,12 +78,16 @@
       .work{
         padding-top: 15%;
     }
+    .name-divider{
+        width: 94%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     .banner_main {
         padding-top: 18%;
         padding-right: 0px;
+        padding-left: 0px;
     }
     .text-bg {
         padding-top: 73px;
@@ -158,10 +164,10 @@
         font-size: 48px;
         line-height: 60px;
       }
-      .contac_detel{
+      .contact-details{
         padding: 25px;
     }
-    .contac_detel ul li {
+    .contact-details ul li {
         font-size: 29px;
     }
     .work{
@@ -178,15 +184,16 @@
     .banner_main {
         padding-top: 18%;
         padding-right: 0px;
+        padding-left: 0px;
     }
     .company-name {
         color: #d1283c;
-        font-size: 90px;
-        line-height: 90px;
+        font-size: 73px;
+        line-height: 73px;
       }
       
       .company-sub-name {
-        font-size: 33px;
+        font-size: 27px;
         line-height: 54px;
       }
 
@@ -235,13 +242,13 @@
         padding-top: 10px;
     }
 
-    .contac_detel{
+    .contact-details{
         padding: 10px;
     }
-    .contac_detel ul li {
-        font-size: 24px;
+    .contact-details ul li {
+        font-size: 18px;
     }
-    .contac_detel ul li img {
+    .contact-details ul li img {
         margin-right: 13px;
         width: 35px;
         height: 35px;
@@ -313,5 +320,9 @@
     }
     .company-wrapper {
         text-align: center;
+    }
+    .contact-img {
+        width: 42px;
+        height: 42px;
     }
 }
