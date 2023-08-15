@@ -1,233 +1,317 @@
-@media (max-width: 1120px) {}
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
-@media (max-width: 992px) {
 
-    .service_section::before {
-        bottom: 45px;
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .solutions_img {
+        margin-right: 0;
     }
-
-    .service_section .service_container {
-        padding: 45px 0 125px 0;
-    }
-
-
-
-    .service_section .box.b-2 .detail-box {
-        width: auto;
-    }
-
-    .service_section .box.b-3 .detail-box {
-        width: auto;
-    }
-
-
+    .name-divider{
+        max-width: 91%;
+      }
 }
 
-@media (max-width: 768px) {
-    .slider_section .detail-box {
-        text-align: center;
-        margin-top: 25px;
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner_main {
+        padding-top: 18%;
+        padding-right: 0px;
+    }
+    .text-bg h1 {
+        font-size: 66px;
+        line-height: 87px;
+    }
+    .bann_img {
+        padding-right: 0;
+    }
+    .titlepage h2 {
+        font-size: 38px;
+    }
+    .solutions_img {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .banner_main {
+        padding-top: 18%;
+        padding-right: 0px;
+    }
+    .text-bg h1 {
+        font-size: 47px;
+        line-height: 69px;
+    }
+    .bann_img {
+        padding-right: 0px;
+    }
+    .titlepage h2 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .multipurpose h3 {
+        font-size: 70px;
+        line-height: 90px;
+    }
+    .solutions_img {
+        margin-right: 0;
+    }
+    .contac_detel ul li img {
+        margin-right: 27px;
+    }
+    .contac_detel ul li {
+        font-size: 30px;
+    }
+    .company-name {
+        color: #d1283c;
+        font-size: 90px;
+        line-height: 90px;
+      }
+      
+      .company-sub-name {
+        font-size: 33px;
+        line-height: 50px;
+      }
+
+      .work{
+        padding-top: 15%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .banner_main {
+        padding-top: 18%;
+        padding-right: 0px;
+    }
+    .text-bg {
+        padding-top: 73px;
+        padding-right: 0px;
+    }
+    .text-bg h1 {
+        font-size: 57px;
+        line-height: 81px;
+    }
+    .text-bg a {
+        margin-bottom: 30px;
+        max-width: 250px;
+    }
+    .titlepage h2 {
+        font-size: 38px;
+    }
+    .service .titlepage {
+        padding-left: 0;
+        padding-top: 40px;
+    }
+    .service_img {
+        padding-left: 0px;
+    }
+    .sm_none {
+        display: none;
+    }
+    .sm_show {
+        display: block;
+        padding-top: 30px;
+    }
+    .multipurpose h3 {
+        font-size: 58px;
+        line-height: 70px;
+    }
+    .solutions_img {
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #000;
+        padding: 20px;
+        margin-top: 52px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding: 0;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
     }
 
-    .info_section .col-md-3 {
-        text-align: center;
+    .company-name {
+        color: #d1283c;
+        font-size: 126px;
+        line-height: 126px;
+      }
+      
+      .company-sub-name {
+        font-size: 48px;
+        line-height: 60px;
+      }
+      .contac_detel{
+        padding: 25px;
+    }
+    .contac_detel ul li {
+        font-size: 29px;
+    }
+    .work{
+        padding-top: 20%;
     }
 
-    .info_section .col-md-3:not(:nth-last-child(1)) {
-        margin-bottom: 35px;
-    }
-
-    .service_section .box.b-1 .detail-box {
-        text-align: center;
-    }
-
-    .service_section .box.b-4 .detail-box {
-        text-align: center;
-    }
-
-    .service_section .box {
-        margin: 25px 0;
-    }
-
-    .info_section .info-nav ul {
-        display: flex;
+    .services-wrapper{
         flex-direction: column;
-        align-items: flex-start;
+        padding: 0 20%;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner_main {
+        padding-top: 18%;
+        padding-right: 0px;
+    }
+    .company-name {
+        color: #d1283c;
+        font-size: 90px;
+        line-height: 90px;
+      }
+      
+      .company-sub-name {
+        font-size: 33px;
+        line-height: 54px;
+      }
+
+      .name-divider{
+        max-width: 97%;
+      }
+      .work{
+        padding-top: 25%;
+    }
+    .header {
+        padding: 30px 0px;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: left;
+    }
+    .text-bg {
+        padding-top: 18px;
+    }
+    .text-bg a {
+        margin-bottom: 30px;
+        max-width: 250px;
+    }
+    .text-bg h1 {
+        font-size: 34px;
+        line-height: 53px;
+        padding-bottom: 40px;
+    }
+    .service .titlepage {
+        padding-left: 0;
+        padding-top: 40px;
+    }
+    .titlepage h2 {
+        font-size: 22px;
+        line-height: 37px;
+    }
+    .about_img {
+        padding: 0;
+    }
+    .multipurpose h3 {
+        font-size: 52px;
+        line-height: 74px;
+    }
+    .multipurpose p {
+        padding-top: 10px;
     }
 
-    .client_section .client_container {
+    .contac_detel{
+        padding: 10px;
+    }
+    .contac_detel ul li {
+        font-size: 24px;
+    }
+    .contac_detel ul li img {
+        margin-right: 13px;
+        width: 35px;
+        height: 35px;
+    }
+    .service{
+        padding-top: 40px;
+    }
+    .services{
+        font-size: 30px;
+    }
+    .service_img {
+        padding-left: 0px;
+        text-align: inherit;
+    }
+    .service-list{
+        font-size: 18px;
+        color: #060002;
+        margin: 14px 0;
+      }
+    .solutions_img {
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .sm_none {
+        display: none;
+    }
+    .sm_show {
+        display: block;
+        padding-top: 30px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
         width: 100%;
+        margin-top: -33px;
+    }
+    .navigation .navbar-collapse {
+        background: #000;
+        padding: 20px;
+        margin-top: 62px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        border: inherit;
+        padding: 0;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
     }
 
-    .about_section .img-box img {
-        width: 80%;
-        height: 450px;
+    .footer{
+        padding-top: 35px;
     }
-    .about_section .img-box img {
-        width: 80%;
-        height: 350px;
+    .copyright{
+        margin-top: 65px;
     }
-    .company-image{
-        width: 80% !important;
-        height: 350 !important;
+    .services-wrapper{
+        flex-direction: column;
+        padding: 0;
     }
-
-    .contact-info {
-        padding-top: 0px;
-    }
-
-    .layout_padding {
-        padding: 50px 0;
-    }
-
-    .email-wrapper {
-        margin-top: 50px;
-        margin-bottom: 70px;
-    }
-
-    .divider{
-        border-top: 3px solid black;
-    }
-
-    .info-contact {
-        margin-top: 20px;
-    }
-
-    .service_section .detail-box {
+    .company-wrapper {
         text-align: center;
     }
 }
-
-@media (max-width: 576px) {
-    .slider_section .detail-box h1 {
-        font-size: 3.5rem;
-    }
-
-    .about_section .img-box img {
-        width: 80%;
-        height: 450px;
-    }
-
-    .company-image{
-        width: 80% !important;
-        height: 350 !important;
-    }
-
-    .slider_section .img-box img {
-        width: 100%;
-        height: 350px;
-    }
-    .divider{
-        border-top: 3px solid black;
-    }
-
-    .info-contact {
-        margin-top: 20px;
-    }
-
-    @keyframes odd-box-animate {
-        0% {
-            transform: translateY(25px);
-        }
-
-        50% {
-            transform: translateY(-25px);
-        }
-
-        100% {
-            transform: translateY(25px);
-        }
-    }
-
-    @keyframes even-box-animate {
-        0% {
-            transform: translateY(-25px);
-        }
-
-        50% {
-            transform: translateY(25px);
-        }
-
-        100% {
-            transform: translateY(-25px);
-        }
-    }
-
-    .work_section .work_container .box.b-1,
-    .work_section .work_container .box.b-3,
-    .work_section .work_container .box.b-2,
-    .work_section .work_container .box.b-4 {
-        animation-duration: 1.5s;
-    }
-}
-
-@media (max-width: 480px) {
-    .header_section .container-fluid {
-        padding: 15px 20px;
-    }
-
-    .about_section .img-box img {
-        width: 80%;
-        height: 450px;
-    }
-    .about_section .img-box img {
-        width: 80%;
-        height: 280px;
-    }
-    .company-image{
-        width: 80% !important;
-        height: 280 !important;
-    }
-
-    .contact-info {
-        padding-top: 0px;
-    }
-
-    .layout_padding {
-        padding: 50px 0;
-    }
-
-    .email-wrapper {
-        margin-top: 50px;
-        margin-bottom: 70px;
-    }
-
-}
-
-@media (max-width: 420px) {
-    .slider_section .detail-box h1 {
-        font-size: 3rem;
-    }
-
-    element {}
-
-    .custom_heading-container h3 {
-
-        text-transform: uppercase;
-        font-weight: bold;
-        color: #000000;
-        position: relative;
-
-    }
-
-    .custom_heading-container h3 {
-        font-size: 1.5rem;
-    }
-
-    .company-image{
-        width: 80% !important;
-        height: 350 !important;
-    }
-}
-
-@media (min-width: 360px) {}
-
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1170px;
-    }
-}
-
-.company-name :first-child {
-    color: #d1283c;
-  }
