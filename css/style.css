@@ -298,6 +298,7 @@ button {
      padding-top: 11%;
      padding-bottom: 150px;
      padding-right: 75px;
+     padding-left: 75px;
 }
 
 .text-bg {
@@ -367,7 +368,7 @@ button {
      color: #060002;
      padding-top: 25px;
      display: block;
-     text-align: left;
+     text-align: center;
 }
 
 .d_flex {
@@ -544,7 +545,7 @@ button {
      display: none;
 }
 
-.contac_detel {
+.contact-details {
      background: #fff;
      padding: 30px;
      text-align: left;
@@ -555,26 +556,26 @@ button {
      -o-border-radius: 8px;
 }
 
-.contac_detel ul li img {
+.contact-details ul li img {
      margin-right: 15px;
      height: 50px;
 }
 
-.contac_detel ul li {
+.contact-details ul li {
      padding-bottom: 25px;
      font-size: 35px;
-     line-height: 30px;
+     line-height: 38px;
 }
 
-.contac_detel ul li:last-child {
+.contact-details ul li:last-child {
      padding-bottom: 0;
 }
 
-.contac_detel ul li a {
+.contact-details ul li a {
      color: black;
 }
 
-.contac_detel ul li a:hover {
+.contact-details ul li a:hover {
      color: #000;
 }
 
@@ -691,4 +692,17 @@ button {
      display: flex;
      text-align: initial;
      padding: 0 15%;
+}
+
+.contact-info{
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 20px;
+     align-items: center;
+   }
+
+.contact-img{
+     width: 50px;
+     height: 50px;
+     margin-right: 20px;
 }
