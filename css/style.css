@@ -612,11 +612,12 @@ button {
  .name-divider{
      border-top: 8px solid #d1283c;
      margin-top: 5px;
-     max-width: 86%;
+     width: 100%;
    }
 
    .company-wrapper{
      width: 100%;
+     max-width: 580px;
    }
 
    .company-name {
